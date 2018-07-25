@@ -1,0 +1,50 @@
+@import "config/variables";
+
+@import "~bootstrap/scss/bootstrap";
+@import "~slick-carousel/slick/slick";
+@import "~slick-carousel/slick/slick-theme";
+
+
+
+@import "base/title-text";
+@import "base/btn";
+@import "base/more-info";
+
+@import "modules/burger-menu";
+@import "modules/slick-theme";
+@import "modules/forms";
+@import "modules/arrow-up";
+@import "modules/content-bg";
+
+@import "layout/app-header";
+@import "layout/header-banner";
+@import "layout/programm-section";
+@import "layout/about-section";
+@import "layout/examinations-section";
+@import "layout/tests-section";
+@import "layout/elit";
+@import "layout/partners-section";
+@import "layout/events-section";
+@import "layout/contacts";
+@import "layout/write-us";
+@import "layout/app-footer";
+
+@import "layout/programs-catalog";
+@import "layout/programs-catalog-header";
+@import "layout/programs-catalog-content";
+@import "layout/about-catalog-header";
+@import "layout/about-catalog-banner";
+@import "layout/about-catalog-content";
+@import "layout/examinations-catalog-header";
+@import "layout/examinations-catalog-content";
+@import "layout/tests-catalog-header";
+@import "layout/tests-catalog-content";
+@import "layout/partners-page-header";
+@import "layout/partners-page-banner";
+@import "layout/events-catalog-header";
+@import "layout/events-catalog-content";
+@import "layout/thank";
+
+@import "layout/examinations-page-content";
+@import "layout/events-page-content";
+@import "layout/events-page-speaker";

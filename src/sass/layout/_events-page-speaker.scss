@@ -1,0 +1,68 @@
+.speaker-overflow {
+    position: relative;
+    display: block;
+    overflow-y: scroll;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    max-height: 1150px;
+    @media (max-width: 576px) {
+        overflow: hidden;
+    }
+}
+.speaker-item {
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 60px;
+    padding-bottom: 15px;
+    border-bottom: 4px solid $btn-color;
+    transition: all linear .3s;
+    background-color: $dark-blue;
+    &:hover {
+        box-shadow: 0px 20px 29px 0px rgba(0, 0, 0, 0.35);
+    }
+}
+.speaker-data {
+    background: transparent !important;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: $dark-blue;
+}
+.speaker-img {
+    width: 100%;
+    height: 190px;
+    margin-bottom: 30px;
+    &.speaker-1 {
+        background: url('img/content/events/speaker-1.jpg') 0 0 no-repeat;
+        background-size: 100%;
+    }
+    &.speaker-2 {
+        background: url('img/content/events/speaker-2.jpg') 0 0 no-repeat;
+        background-size: 100%;
+    }
+}
+.speaker-text {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #fff;
+}
+.speaker-name {
+    margin-bottom: 20px !important;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: $btn-color !important;
+}
+.speaker-name-item {
+    box-sizing: border-box;
+    position: absolute;
+    top: -15px;
+    right: 0;
+    display: block;
+    padding: 12px 30px;
+    font-family: 'FuturaMediumC',Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    background-color: $dark-blue;
+    font-size: 16px !important;
+    text-align: center;
+    color: $sub-color;
+    z-index: 20;
+}

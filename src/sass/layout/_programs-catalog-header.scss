@@ -1,0 +1,24 @@
+#programs-header {
+    padding-top: 40px;
+    min-height: 835px;
+    background: url('img/bg/about-catalog-bg.jpg') 50% 50% no-repeat;
+    background-size: cover;
+    .logo {
+        font-family: "FuturaMediumC",Arial, Helvetica, sans-serif;
+        margin-bottom: 0;
+    }
+    .burger-menu {
+        .line-top {
+            background-color: $dark-blue;
+        }
+        .line-middle {
+            background-color: $dark-blue;
+        }
+        .line-bottom {
+            background-color: $dark-blue;
+        }
+    }
+    .menu {
+        z-index: 10;
+    }
+}

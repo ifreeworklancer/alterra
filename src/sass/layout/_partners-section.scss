@@ -1,0 +1,28 @@
+#partners {
+    padding-top: 100px;
+    padding-bottom: 120px;
+    @media (min-width: 992px) {
+        padding-top: 200px;
+    }
+}
+.partners-logo {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    outline: none;
+    background-size: contain;
+    &.logo-1 {
+        background: url('img/content/partners/logo-1.jpg') 50% 50% no-repeat;
+    }
+    &.logo-2 {
+        background: url('img/content/partners/logo-2.jpg') 50% 50% no-repeat;
+    }
+    &.logo-3 {
+        background: url('img/content/partners/logo-3.jpg') 50% 50% no-repeat;
+    }
+    &.logo-4 {
+        background: url('img/content/partners/logo-4.jpg') 50% 50% no-repeat;
+    }   
+}

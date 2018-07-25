@@ -1,0 +1,15 @@
+#arrow-up-link {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: url('img/icon/up-arrow.svg') 0 0 no-repeat;
+    background-size: 100%; 
+    opacity: .7;
+    transition: .3s;
+    &:hover {
+        opacity: 1;
+    }
+}

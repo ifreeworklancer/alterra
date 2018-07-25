@@ -1,0 +1,85 @@
+#form-write {
+    margin-top: 30px;
+    width: 98% !important;
+    color: #fff;
+    .textarea-group {
+        &.in-focus {
+            .label-placeholder {
+                bottom: 100%;
+            }
+        }
+        .input-group {
+            margin-bottom: 40px;
+            padding: 0;
+            .label-placeholder {
+                bottom: 70%;
+            }
+            &:after {
+                bottom: 0;
+            }
+        }
+        .form-control {
+            box-sizing: border-box;
+            resize: none;
+            max-height: 300px;
+            overflow-y: hidden;
+        }
+    }
+    .input-group {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 60px;
+        padding: 0;
+        &:after {
+            content: '';
+            position: absolute;
+            left: 10px;
+            bottom: -20px;
+            display: block;
+            width: 85px;
+            height: 3px;
+            background-color: #9da1ac;
+            transition: .3s;
+        }
+        &.in-focus {
+            .label-placeholder {
+              transform: none;
+              left: 0;
+              bottom: 100%;
+              font-size: 16px;
+            }
+            &::after {
+                width: 95%;
+                background-color: $btn-color;
+            }
+        }
+        .label-placeholder {
+            position: absolute;
+            left: 10px;
+            right: 10px;
+            bottom: 40%;
+            transform: translateY(50%);
+            margin: 0;
+            font-family: "FuturaLightC",Arial, Helvetica, sans-serif;
+            text-transform: uppercase;
+            font-size: 24px;
+            color: #9da1ac;
+            z-index: 10;
+            transition: 0.5s;
+        }
+        .form-control {
+            width: 100%;
+            margin-top: 10px;
+            font-size: 24px;
+            color: #fff;
+            border: none;
+            background: transparent;
+            outline: none; 
+            box-shadow: none;
+        }
+                
+    }
+    
+}

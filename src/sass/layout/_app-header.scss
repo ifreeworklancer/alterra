@@ -1,0 +1,20 @@
+#app-header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    padding-top: 60px;
+    z-index: 11;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .tel-link {
+        font-family: 'FuturaMediumC',Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        color:  #fff;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}

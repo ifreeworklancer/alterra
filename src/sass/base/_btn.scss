@@ -1,0 +1,48 @@
+.btn-global {
+    box-sizing: border-box;
+    position: relative;
+    max-width: 400px;
+    padding: 15px 60px 12px 60px;
+    border: 2px solid $sub-color;
+    background: transparent;
+    font-family: 'FuturaMediumC',Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: $btn-color;
+    transition: background-color linear .3s;
+    @media (max-width: 576px) {
+        padding: 21px 20px 17px 20px;
+    }
+    &:hover {
+        text-decoration: none;
+        background-color: $sub-color;
+        color: #fff;
+    }
+}
+.btn-global-dark {
+    box-sizing: border-box;
+    position: relative;
+    max-width: 430px;
+    padding: 21px 60px 17px 60px;
+    border: 2px solid $dark-blue;
+    background: transparent;
+    font-family: 'FuturaMediumC',Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    padding: 21px 20px 17px 21px;
+    letter-spacing: 2px;
+    color: $dark-blue;
+    transition: background-color linear .3s;
+    @media (min-width: 992px) {
+        font-size: 22px;
+        padding: 21px 60px 17px 60px;
+    }
+    &:hover {
+        text-decoration: none;
+        background-color: $dark-blue;
+        color: $btn-color;
+    }
+}

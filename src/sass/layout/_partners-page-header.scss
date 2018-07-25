@@ -1,0 +1,18 @@
+#partners-header {
+    position: absolute;
+    top: 0;
+    padding-top: 60px;
+    width: 100%;
+    z-index: 2;
+    @media (max-width: 576px) {
+        height: auto;
+        padding: 40px 0;
+    }
+    .menu {
+        z-index: 10;
+    }
+    .logo {
+        font-family: "FuturaMediumC",Arial, Helvetica, sans-serif;
+        margin-bottom: 0;
+    }
+}

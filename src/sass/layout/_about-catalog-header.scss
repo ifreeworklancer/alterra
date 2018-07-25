@@ -1,0 +1,22 @@
+#about-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 50px;
+    .logo {
+        font-family: "FuturaMediumC",Arial, Helvetica, sans-serif;
+        margin-bottom: 0;
+    }
+    .burger-menu {
+        .line-top {
+            background-color: $dark-blue;
+        }
+        .line-middle {
+            background-color: $dark-blue;
+        }
+        .line-bottom {
+            background-color: $dark-blue;
+        }
+    }
+}

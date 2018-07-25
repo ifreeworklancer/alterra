@@ -1,0 +1,40 @@
+#examinations-content {
+    background-color: #fff;
+    height: 1000px;
+    .col-sm {
+        display: flex;
+    }
+    .title {
+        color: #fff;
+    }
+    .content-bg {
+        &::after {
+            content: '';
+            position: absolute;
+            top: 60%;
+            bottom: 0;
+            width: 100%;
+            background-color: $dark-blue;
+            z-index: -2;
+        }
+    }
+    .examinations-item {
+        margin-bottom: 40px;
+    }
+    .examinations-item__number {
+        position: absolute;
+        display: none;
+        right: -90px;
+        top: -190px;
+        text-transform: uppercase;
+        font-weight: 900;
+        color: #000;
+        font-family: 'FuturaMediumC',Arial, Helvetica, sans-serif;
+        font-size: 250px;
+        opacity: .1;
+        z-index: -1;
+        @media (min-width: 1280px) {
+            display: block;
+        }
+    }
+}

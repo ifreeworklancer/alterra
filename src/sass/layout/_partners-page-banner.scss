@@ -1,0 +1,33 @@
+#partners-banner {
+    position: relative;
+    padding: 325px 0 165px;
+    background: url('img/bg/partners-page-bg.jpg') 50% 50% no-repeat;
+    background-size: cover;
+    color: #fff;
+    @media (min-width: 576px) {
+        &::before {
+            content: '';
+            position: absolute;
+            bottom: -90px;
+            left: 0;
+            right: 3.5%;
+            height: 2px;
+            background-color: $sub-color;
+        }
+        &::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: -90px;
+            right: 3.5%;
+            width: 2px;
+            background-color: $sub-color;
+        }
+    }
+    .partners-col-custom {
+        padding-right: 180px;
+        @media (max-width: 576px) {
+            padding-right: 5px;
+        }
+    }
+}

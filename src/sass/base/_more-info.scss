@@ -1,0 +1,33 @@
+.more {
+    text-align: right;
+    @media (max-width: 576px) {
+        text-align: center;
+    }
+    .more-info {
+        position: relative;
+        padding-right: 50px;
+        font-family: 'FuturaMediumC',Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 22px;
+        color: $sub-color;
+        &::after {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 0;
+            display: block;
+            width: 26px;
+            height: 22px;
+            background: url('img/icon/right-arrow.svg') 0 0 no-repeat;
+            background-size: 100%;
+            transition: right linear .3s;
+        }
+        &:hover {
+            text-decoration: none;
+            &::after {
+                right: -20px;
+            }
+        }
+    }
+}

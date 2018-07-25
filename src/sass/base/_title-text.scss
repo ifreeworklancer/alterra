@@ -1,0 +1,39 @@
+.title {
+    position: relative;
+    padding-bottom: 50px;
+    padding-left: 0;
+    font-family: 'FuturaMediumC',Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 36px;
+    @media (max-width: 576px) {
+        font-size: 28px;
+    }
+    &:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        display: block;
+        margin: 50px 0 25px 0;
+        width: 52px;
+        height: 2px;
+        background-color: $sub-color;
+    }
+}
+.text {
+    margin-bottom: 0;
+    font-family: 'FuturaLightC',Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: .8;
+    &::first-letter {
+        font-family: 'FuturaMediumC',Arial, Helvetica, sans-serif;
+        font-size: 100px;
+    }
+}
+.title-line {
+    display: block;
+    margin: 50px 0 25px 0;
+    width: 52px;
+    height: 2px;
+    background-color: $sub-color;
+} 

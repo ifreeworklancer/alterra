@@ -1,0 +1,43 @@
+#about-bg-video {
+    position: relative;
+    padding-top: 105px;
+    min-height: 800px;
+    background: url('img/bg/about-bg.jpg') 50% 0 no-repeat;
+    background-size: cover;
+    color: #fff;
+    @media (max-width: 576px) {
+        min-height: 500px;
+    }
+    @media (min-width: 1400px) {
+        &::after {
+            content: '';
+            position: absolute;
+            right: 110px;
+            bottom: -40px;
+            width: 2px;
+            height: 3000px;
+            z-index: 1;
+            background-color: $sub-color;
+        }
+        &::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 110px;
+            bottom: -40px;
+            height: 2px;
+            z-index: 1;
+            background-color: $sub-color;
+        }
+    }
+    .img-center {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 10;
+        img {
+            cursor: pointer;
+        }
+    }
+}

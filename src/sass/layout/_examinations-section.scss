@@ -1,0 +1,115 @@
+#examinations {
+    position: relative;
+    bottom: -230px;
+    color: $dark-blue;
+    .col-sm {
+        display: flex;
+    }
+    .title {
+        margin-bottom: 50px;
+    }
+}
+.examinations-bg-line {
+    position: relative;
+    @media (min-width: 1310px) {
+        &::before {
+            content: '';
+            position: absolute;
+            top: 120px;
+            bottom: 32px;
+            left: -85px;
+            width: 2px;
+            background-color: $dark-blue;
+        }
+        &::after {
+            content: '';
+            position: absolute;
+            top: 120px;
+            bottom: 32px;
+            right: -85px;
+            width: 2px;
+            background-color: $dark-blue;
+        }
+        .btn-global-dark {
+            &::before {
+                content: '';
+                position: absolute;
+                top: 40px;
+                left: -450px;
+                width: 100%;
+                max-width: 460px;
+                height: 2px;
+                background-color: $dark-blue;
+            }
+            &::after {
+                content: '';
+                position: absolute;
+                top: 40px;
+                right: -450px;
+                width: 100%;
+                max-width: 460px;
+                height: 2px;
+                background-color: $dark-blue;
+            }
+        }
+        .examinations-row-bg-line {
+            position: relative;
+            &::before {
+                content: '';
+                position: absolute;
+                top: 120px;
+                left: -70px;
+                right: -70px;
+                height: 2px;
+                background-color: $dark-blue;
+            }
+        }
+    }
+}
+
+.examinations-item {
+    box-sizing: border-box;
+    position: relative;
+    padding: 50px 70px 40px 50px;
+    border-bottom: 4px solid $dark-blue; 
+    background-color: #fff;
+    box-shadow: 0px 13px 29px 0px rgba(0, 0, 0, 0.35);
+    font-family: 'FuturaMediumC',Arial, Helvetica, sans-serif;
+    margin-bottom: 70px;
+    transition: box-shadow linear .3s;
+    @media (max-width: 576px) {
+        margin-bottom: 40px;
+        padding: 50px 20px 40px 20px;
+    }
+    &:hover {
+        box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.25);
+    }
+}
+.examinations-title {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: $dark-blue;
+}
+.examinations-text {
+    margin-bottom: 40px;
+    font-family: 'FuturaLightC',Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #1b1a1a;
+}
+.examinations-item__number {
+    position: absolute;
+    display: none;
+    right: -30px;
+    top: -30px;
+    font-family: 'FuturaMediumC',Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 100px;
+    opacity: .1;
+    z-index: -1;
+    @media (min-width: 1200px) {
+        display: block;
+    }
+}

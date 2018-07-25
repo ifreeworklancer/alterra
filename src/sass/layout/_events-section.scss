@@ -1,0 +1,116 @@
+#events {
+    position: relative;
+    padding-bottom: 120px;
+    @media (min-width: 1410px) {
+        &::after {
+            position: absolute;
+            content: '';
+            display: block;
+            top: 8px;
+            left: 55%;
+            right: 140px;
+            height: 2px;
+            background-color: $sub-color;
+        }
+    }
+    .title {
+        margin-bottom: 40px;
+    }
+    .more {
+        margin-top: 20px;
+    }
+}
+.events-item {
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 60px;
+    padding-bottom: 30px;
+    background: #fff;
+    border-bottom: 4px solid $dark-blue;
+    transition: all linear .3s;
+    &:hover {
+        box-shadow: 0px 20px 29px 0px rgba(0, 0, 0, 0.35);
+    }
+}
+.events-data {
+    background: transparent !important;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: $dark-blue;
+}
+.events-img {
+    width: 100%;
+    height: 190px;
+    margin-bottom: 30px;
+    &.events-1 {
+        background: url('img/content/events/events-1.jpg') 0 0 no-repeat;
+        background-size: 100%;
+    }
+    &.events-2 {
+        background: url('img/content/events/events-2.jpg') 0 0 no-repeat;
+        background-size: 100%;
+    }
+    &.events-3 {
+        background: url('img/content/events/events-3.jpg') 0 0 no-repeat;
+        background-size: 100%;
+    }
+    &.events-4 {
+        background: url('img/content/events/events-4.jpg') 0 0 no-repeat;
+        background-size: 100%;
+    }
+}
+.events-text {
+    padding-left: 30px;
+    padding-right: 35px;
+}
+.events-title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'FuturaMediumC',Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+.events-place  {
+    position: relative;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    padding-left: 30px;
+    font-size: 16px;
+    color: #9da1ac;
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 2px;
+        display: block;
+        width: 15px;
+        height: 15px;
+    }
+}
+.events-time {
+    @extend .events-place;
+}
+.events-place {
+    &::before {
+        background:url('img/icon/placeholder.svg') 0 0 no-repeat;
+        background-size: 100%;
+        
+    }
+}
+.events-time {
+    &::before {
+        background:url('img/icon/calendar.svg') 0 0 no-repeat;
+        background-size: 100%;
+    }
+}
+.events-name {
+    box-sizing: border-box;
+    position: absolute;
+    top: -15px;
+    right: 0;
+    display: block;
+    padding: 12px 30px;
+    background-color: $dark-blue;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}

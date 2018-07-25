@@ -1,0 +1,17 @@
+#tests-header {
+    padding-top: 60px;
+    min-height: 795px;
+    background: url('img/bg/tests-catalog-bg.jpg') 50% 50% no-repeat;
+    background-size: cover;
+    @media (max-width: 576px) {
+        height: auto;
+        padding: 40px 0;
+    }
+    .menu {
+        z-index: 10;
+    }
+    .logo {
+        font-family: "FuturaMediumC",Arial, Helvetica, sans-serif;
+        margin-bottom: 0;
+    }
+}

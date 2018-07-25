@@ -1,0 +1,11 @@
+#write-us {
+    box-sizing: border-box;
+    padding: 150px 0 100px;
+    background-color: $dark-blue;
+    @media (max-width: 576px) {
+        padding-left: 20px;
+    }
+    .title {
+        color: #fff;
+    }
+}

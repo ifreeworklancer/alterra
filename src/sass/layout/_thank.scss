@@ -1,0 +1,23 @@
+#thank {
+    background-color: $dark-blue;
+    height: 100vh;
+    color: #fff;
+    .logo {
+        font-family: "FuturaMediumC",Arial, Helvetica, sans-serif;
+    }
+}
+.thanks-title {
+    text-transform: uppercase;
+    font-family: "FuturaMediumC",Arial, Helvetica, sans-serif;
+    text-align: center;
+    @media (max-width: 576px) {
+        font-size: 32px;
+    }
+}
+.thank-desc {
+    font-size: 2.2rem;
+    margin-bottom: 60px;
+    @media (max-width: 576px) {
+        font-size: 16px;
+    }
+}

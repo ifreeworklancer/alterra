@@ -1,0 +1,33 @@
+#about-banner {
+    height: 100vh;
+    background: url('img/bg/about-catalog-bg.jpg') 50% 50% no-repeat;
+    background-size: cover;
+    color: #fff;
+    @media (max-width: 576px) {
+        height: auto;
+        padding: 40px 0;
+    }
+    .about-banner-title {
+        max-width: 730px;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: "FuturaMediumC",Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        color: #fefefe;
+        @media (max-width: 576px) {
+            margin-top: 100px;
+            margin-bottom: 10px;
+        }
+    }
+    p {
+        max-width: 730px;
+        margin-bottom: 0;
+        width: 100%;
+        word-spacing: 4px;
+        @media (max-width: 576px) {
+            word-spacing: 0;
+            line-height: 1;
+        }
+    }
+}
