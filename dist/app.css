@@ -10121,7 +10121,7 @@ a.text-dark:hover, a.text-dark:focus {
   bottom: 70px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
   #events-slider .prev-arrow,
   #events-slider .next-arrow {
     bottom: 0;
@@ -12131,7 +12131,6 @@ td a:hover, .index-row a:hover {
 }
 
 #events-page-content .title {
-  font-family: 'FuturaMediumC',Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   font-size: 36px;
   color: #fff;
@@ -12183,6 +12182,11 @@ td a:hover, .index-row a:hover {
 #events-page-content .events-item-banner img {
   width: 100%;
   height: auto;
+}
+
+#events-page-content .events-item-banner .events-name {
+  top: 20px;
+  right: 15px;
 }
 
 @media (max-width: 992px) {
