@@ -1,0 +1,20 @@
+#languages {
+    background-color: $dark-blue;
+    height: 100vh;
+    color: #fff;
+
+    .change-languages {
+       width: 100%;
+       max-width: 500px;
+
+       h2 {
+           opacity: .6;
+           transition: .5s;
+
+           &:hover {
+               opacity: 1;
+               cursor: pointer;
+           }
+       }
+    }
+}

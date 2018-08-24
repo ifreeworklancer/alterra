@@ -11278,6 +11278,28 @@ a.text-dark:hover, a.text-dark:focus {
   color: #575c6c;
 }
 
+#languages {
+  background-color: #1e2838;
+  height: 100vh;
+  color: #fff;
+}
+
+#languages .change-languages {
+  width: 100%;
+  max-width: 500px;
+}
+
+#languages .change-languages h2 {
+  opacity: .6;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#languages .change-languages h2:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
 #programs-body {
   background-color: #1e2838;
 }
